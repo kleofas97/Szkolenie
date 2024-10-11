@@ -8,3 +8,6 @@ class TestAddFunction(unittest.TestCase):
 
     def test_add_strings(self):
         self.assertEqual(add("foo", "bar"), "foobar")
+
+    def test_wrong_adding(self):
+        self.assertRaises(TypeError, add, 2, "teskt")
