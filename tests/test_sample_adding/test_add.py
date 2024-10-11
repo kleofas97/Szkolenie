@@ -1,6 +1,6 @@
 from src.sample_adding.adding import add
 import unittest
-
+import time
 
 class TestAddFunction(unittest.TestCase):
     def test_add_integers(self):
