@@ -2,6 +2,7 @@ from src.sample_adding.adding import add
 import unittest
 import time
 
+
 class TestAddFunction(unittest.TestCase):
     def test_add_integers(self):
         self.assertEqual(add(2, 3), 5)

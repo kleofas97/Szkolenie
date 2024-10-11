@@ -9,4 +9,4 @@ class TestCalculator(unittest.TestCase):
         assert c.dodawanie() == 7
 
     def test_dodwanie_dwoch_slow(self):
-        self.assertRaises(Exception, Calculator, 'text', 'text')
+        self.assertRaises(Exception, Calculator, "text", "text")

@@ -1,6 +1,7 @@
 import unittest
 from src.sample_adding.calculator import Calculator
 
+
 class TestCalculatorSetUp(unittest.TestCase):
 
     @classmethod
@@ -15,4 +16,4 @@ class TestCalculatorSetUp(unittest.TestCase):
         self.assertEqual(self.calculator_valid.odejmowanie(), -1)
 
     def test_dodwanie_dwoch_slow(self):
-        self.assertRaises(Exception, Calculator, 'text', 'text')
+        self.assertRaises(Exception, Calculator, "text", "text")
