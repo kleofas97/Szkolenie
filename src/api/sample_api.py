@@ -2,7 +2,8 @@ import requests
 import os
 from dotenv import load_dotenv
 
-# Pobieranie zmiennych środowisk z pliku .env - po co? -> https://www.geeksforgeeks.org/how-to-create-and-use-env-files-in-python/
+# Pobieranie zmiennych środowisk z pliku .env - po co? ->
+#  https://www.geeksforgeeks.org/how-to-create-and-use-env-files-in-python/
 load_dotenv()
 
 token = os.getenv("TOKEN")

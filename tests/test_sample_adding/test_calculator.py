@@ -6,7 +6,7 @@ class TestCalculator(unittest.TestCase):
 
     def test_dodawanie_dwoch_liczb(self):
         c = Calculator(3, 4)
-        assert c.dodawanie() == 7
+        assert c.dodawanie() == 7, "Dodawanie jest zle!"
 
-    def test_dodwanie_dwoch_slow(self):
+    def test_dodawanie_dwoch_slow(self):
         self.assertRaises(Exception, Calculator, "text", "text")
